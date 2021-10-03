@@ -1,0 +1,57 @@
+body{
+    background-color: #2B364B
+}
+.headerCard{
+    margin: auto;
+    margin-top: 200px;
+    width: 547px;
+    height: 141px;
+    box-shadow: 0px 0px 7px #36445f;
+    z-index: 9;
+    position: relative;
+    background-color: #2B364B;
+}
+.loginHeader{
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+    width: 127px;
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    color: #ffffff;
+}
+.loginCard{
+    margin: auto;
+    margin-top: -100px;
+    background: #394865;
+    height: 555px;
+    width: 944px;
+}
+.googleLoginCard{
+    position: relative;
+    top:223px;
+}
+.orContainer{
+    position: relative;
+    width: 27px;
+    height: 30px;
+    top: 309px;
+    left: 455px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+}
+.anonymousCard{
+    position: relative;
+    top:336px;
+    
+}
+

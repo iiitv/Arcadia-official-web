@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import { Route,  Switch } from 'react-router';
+import './App.css'
+import { Route} from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import Login from './Components/login';
 import Dashbord from './Components/dashboard';
