@@ -14,7 +14,7 @@ const Navbar = () => {
                     <li className="nav__header__list__element">Announcements</li>
                     <li className="nav__header__list__element">Events</li>
                     <li className="nav__header__list__element">Games</li>
-                    <li className="nav__header__list__element">About us</li>
+                    <li className="nav__header__list__element">About Us</li>
                     <li className="nav__header__list__element"><button className="nav__header__list__element__login">Login</button></li>
                 </ul>
             </div>

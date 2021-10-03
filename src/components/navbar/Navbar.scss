@@ -1,10 +1,10 @@
 .nav{
     display: flex;
     flex-flow: column;
-    background:#2B364B;
+    width: 1440px;
+    background: #2B364B;
 ;
     &__header{
-        width: 100%;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
@@ -13,57 +13,68 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 22px;
         position: relative;
-        height: 130px;
+        height: 184px;
 
         &__logo{
             display: flex;
             flex-flow: justify-content;
             position: relative;
+            width: 524px;
             margin-left: 47px;
             margin-top: 28px;
             vertical-align: middle;
+            &img{
+                width: 139px;
+                height: 156px;
+            }
         }
         &__list{
             display: flex;
             justify-content: space-around;
             flex-flow: row;
             vertical-align: middle;
-            gap: 1rem;
-            grid-template-columns: repeat(5, minmax(0, 1fr));
+            //gap: 1rem;
+            //grid-template-columns: repeat(5, minmax(0, 1fr));
             text-align: center;
             list-style-type: none;
             box-sizing: border-box;
             width: 916px;
-            margin-left: 5%;
+            margin-left: 300px;
             position: relative;
-            margin-right: 99px;
+            margin-right: 48px;
             height: inherit;
             padding: auto;
             flex: auto;
-            margin-top: 120px;
+            margin-top: 172px;
             &__element{
                 flex: auto;
-                //width: 67px;
                 box-sizing: border-box;
                 font-size: 22px;
                 font-weight: 600;
                 text-decoration: none;
                 text-align: center;
                 align-items: center;
+                margin-right: 80px;
                 color: #FFFFFF;
                 position: relative;
                 padding-top: none;
                 justify-content: center;
                 white-space: nowrap;
                 &__login{
-                    border-color: none;
-                    border-radius: 16px;
+                    border: none;
+                    height: 46px;
+                    width: 155px;
+                    padding: 9px 51px;
+                    margin-top: -8px;
+                    margin-right: 48px;
+                    border-radius: 24px;
                     font-size: 22px;
                     font-weight: 600;
                     text-decoration: none;
                     text-align: center;
                     align-items: center;
                     color: #2B364B;
+                    background-color: #FFFFFF;
                 }
             }
         }
