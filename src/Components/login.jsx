@@ -22,10 +22,11 @@ export default function Login(){
         <div className="loginCard">
             <div className="googleLoginCard">
                 <GoogleLogin
+                className="try"
                     clientId="1032167174701-bscvulohd5d6lpppmga4341uguhvma86.apps.googleusercontent.com"
                     buttonText="Log in with Google"
                     onSuccess={handleLogin}
-                    onFailure={handleLogin}
+                    onFailure={(response) => console.log(response)}
                     cookiePolicy={'single_host_origin'}
                 />
             </div>
