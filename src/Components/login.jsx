@@ -28,6 +28,7 @@ export default function Login(){
                     onSuccess={handleLogin}
                     onFailure={(response) => console.log(response)}
                     cookiePolicy={'single_host_origin'}
+                    icon={false}
                 />
             </div>
             
