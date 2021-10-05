@@ -1,4 +1,5 @@
-import './App.css'
+
+import './App.scss'
 import { Route} from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import Login from './Components/login';
@@ -12,6 +13,7 @@ function App() {
        <Route path = "/login" component={Login}/>
        <Route path = "/dashboard" component={Dashbord}/>
      </BrowserRouter>
+     <Games />
     </div>
   );
 }
