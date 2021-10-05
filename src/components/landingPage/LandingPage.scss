@@ -1,0 +1,89 @@
+.landingPage{
+    display: flex;
+    flex-flow: column;
+    width: 1440px;
+    height: 1828px;
+    background: #2B364B;
+
+    &__head{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: center;
+        font-family: Avenir Next;
+        position: relative;
+        
+        &__players{
+            width: 152px;
+            height: 54px;
+            margin-top: 111px;
+            &__text1{
+                font-weight: 800;
+                font-style: italic;
+                font-size: 40px;
+                color: #FFFFFF;
+                opacity: 0.35;
+            }
+        }
+
+        &__matches{
+            width: 300px;
+            height: 96px;
+            margin-top: 12px;
+            &__text2{
+                font-weight: 800;
+                font-style: italic;
+                font-size: 70px;
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+        }
+
+        &__auctions{
+            width: 449px;
+            height: 137px;
+            margin-top: 5px;
+            &__line{
+                width: 698px;
+                height: 3px;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid #FFFFFF;
+                box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.25);
+            }
+            &__text3{
+                font-weight: 800;
+                font-style: italic;
+                font-size: 100px;
+                color: #FFFFFF;
+            }
+        }
+
+        &__games{
+            width: 241px;
+            height: 96px;
+            margin-top: 13px;
+            &__text4{
+                font-weight: 800;
+                font-style: italic;
+                font-size: 70px;
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+        }
+
+        &__teams{
+            width: 152px;
+            height: 54px;
+            margin-top: 12px;
+            &__text5{
+                font-weight: 800;
+                font-style: italic;
+                font-size: 40px;
+                color: #FFFFFF;
+                opacity: 0.35;
+            }
+        }
+    }
+}
