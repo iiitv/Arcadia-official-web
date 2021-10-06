@@ -1,5 +1,6 @@
 import React from "react"
 import { useHistory } from "react-router"
+import Navbar from './navbar/Navbar'
 export default function LandingPage(){
     let history = useHistory();
     const handleClick = () =>{
@@ -7,7 +8,7 @@ export default function LandingPage(){
     }
     return (
     <div>
-        <button onClick={handleClick}>Login</button>
+        
     </div>
     );
 }
