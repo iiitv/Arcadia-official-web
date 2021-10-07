@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-
-import './App.scss'
 import { Route} from 'react-router';
+import './App.scss'
 import { BrowserRouter } from 'react-router-dom';
 import Login from './Components/login';
 import Dashbord from './Components/dashboard';
 import LandingPage from './Components/landingPage';
 import Footer from './components/footer/footer';
+import Games from './components/games/Games';
 
 function App() {
   return (
@@ -19,6 +16,7 @@ function App() {
        <Route path = "/dashboard" component={Dashbord}/>
      </BrowserRouter>
      <Games />
+     <Footer />
     </div>
   );
 }
