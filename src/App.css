@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Origin Tech Demo";
+  src: local("Origin Tech Demo"),
+    url(./assets/fonts/origin-tech-demo.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: local("Gill Sans"), url(./assets/fonts/gill-sans.otf) format("opentype");
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +46,87 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Footer styles */
+.siteFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+  background: #394865;
+}
+.footer_left {
+  text-align: left;
+  width: 14%;
+}
+.footer_logo {
+}
+.footer_content {
+  font-family: Origin Tech Demo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 0 10px;
+  text-align: left;
+}
+.footer_socials {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.footer_center {
+  display: flex;
+  width: 55%;
+}
+.footer_links {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto 0px auto;
+  flex-direction: column;
+}
+.footer_link {
+  font-family: Gill Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.footer_right {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer_input {
+  width: 180px;
+  height: 36px;
+  padding: 0 13px;
+  background: #fff;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+}
+.footer_info {
+  font-family: Gill Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #ffffff;
+  text-align: left;
+}
+.footer_button {
+  width: 83px;
+  height: 30px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  outline: none;
+  border: none;
 }
