@@ -13,6 +13,7 @@
         justify-content: space-between;
         box-sizing: border-box;
         align-items: center;
+        text-align: center;
         font-family: 'Avenir Next', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         //position: relative;
         
@@ -122,6 +123,7 @@
             margin-left: auto;
             //margin-top: 702px;
             margin-top: 518px;
+            //text-align: left;
 
             font-style: italic;
             font-weight: 800;
@@ -137,6 +139,7 @@
             position: absolute;
             display: flex;
             flex-flow: row;
+            padding-left: 13px;
             //margin-top: 785px;
             margin-top: 601px;
             margin-left: auto;
