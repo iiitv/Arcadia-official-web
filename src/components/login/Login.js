@@ -1,7 +1,7 @@
 
 import { useHistory } from "react-router";
 import GoogleLogin from "react-google-login";
-import "./login.css"
+import "./Login.scss"
 export default function Login(){
     let history = useHistory(); 
     const handleLogin = (res)  => {
