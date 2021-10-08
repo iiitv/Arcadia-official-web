@@ -11,78 +11,237 @@
         justify-content: space-between;
         box-sizing: border-box;
         align-items: center;
-        font-family: Avenir Next;
-        position: relative;
+        font-family: 'Avenir Next', 'Gill Sans';
+        position: position;
         
         &__players{
+            position: absolute;
             width: 152px;
             height: 54px;
-            margin-top: 111px;
-            &__text1{
-                font-weight: 800;
-                font-style: italic;
-                font-size: 40px;
-                color: #FFFFFF;
-                opacity: 0.35;
-            }
+            left: 644px;
+            top: 295px;
+
+            font-style: italic;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 55px;
+
+            color: #FFFFFF;
+
+            opacity: 0.35;
         }
 
         &__matches{
+            position: absolute;
             width: 300px;
             height: 96px;
-            margin-top: 12px;
-            &__text2{
-                font-weight: 800;
-                font-style: italic;
-                font-size: 70px;
-                color: #FFFFFF;
-                opacity: 0.6;
-            }
+            left: 570px;
+            top: 361px;
+
+            font-style: italic;
+            font-weight: 800;
+            font-size: 70px;
+            line-height: 96px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.6;   
+        }
+        &__line1{
+            position: absolute;
+            width: 698px;
+            height: 3px;
+            left: 371px;
+            top: 462px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.25);
         }
 
         &__auctions{
+            position: absolute;
             width: 449px;
             height: 137px;
-            margin-top: 5px;
-            &__line{
-                width: 698px;
-                height: 3px;
-                margin-left: auto;
-                margin-right: auto;
-                border: solid #FFFFFF;
-                box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.25);
-            }
-            &__text3{
-                font-weight: 800;
-                font-style: italic;
-                font-size: 100px;
-                color: #FFFFFF;
-            }
+            left: 496px;
+            top: 457px;
+
+            font-style: italic;
+            font-weight: 800;
+            font-size: 100px;
+            line-height: 137px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+        &__line2{
+            position: absolute;
+            width: 698px;
+            height: 3px;
+            left: 371px;
+            top: 578px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.25);
+
         }
 
         &__games{
+            position: absolute;
             width: 241px;
             height: 96px;
-            margin-top: 13px;
-            &__text4{
-                font-weight: 800;
-                font-style: italic;
-                font-size: 70px;
-                color: #FFFFFF;
-                opacity: 0.6;
-            }
+            left: 600px;
+            top: 594px;
+
+            font-style: italic;
+            font-weight: 800;
+            font-size: 70px;
+            line-height: 96px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
         }
 
         &__teams{
+            position: absolute;
             width: 152px;
             height: 54px;
-            margin-top: 12px;
-            &__text5{
-                font-weight: 800;
-                font-style: italic;
-                font-size: 40px;
+            left: 649px;
+            top: 702px;
+
+            font-style: italic;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 55px;
+
+            color: #FFFFFF;
+
+            opacity: 0.35;
+        }
+
+        &__dot{
+            position: absolute;
+            display: flex;
+            flex-flow: row;
+            margin-top: 785px;
+
+            &__dot1{
+                width: 14px;
+                height: 14px;
+                //display: inline-block;
+                margin-right: 13px;
+                border-radius: 50%;
+                border: 1px solid #FFFFFF
+            }
+            &__dot2{
+                width: 14px;
+                height: 14px;
+                margin-right: 13px;
+                //display: inline-block;
+                border-radius: 50%;
+                background-color: #FFFFFF;
+                border: 1px solid #FFFFFF;
+            }
+        }
+    }
+
+    &__mid{
+        position: absolute;
+        width: 1440px;
+        height: 2px;
+        left: 0px;
+        top: 893px;
+
+        background: #FFFFFF;
+    }
+
+    &__content{
+        height: 1117px;
+        width: 1440px;
+
+        &__arcadia{
+            position: absolute;
+            width: 163px;
+            height: 33px;
+            left: 142px;
+            top: 968px;
+
+            font-family: 'Origin Tech Demo';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            line-height: 33px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+        &__desc{
+            position: absolute;
+            width: 1209px;
+            height: 360px;
+            left: 142px;
+            top: 1037px;
+
+            font-family: 'Gill Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            text-align: left;
+            line-height: 30px;
+
+            color: #FFFFFF;
+        }
+        &__tags{
+            &__tag1{
+                position: absolute;
+                width: 621px;
+                height: 67px;
+                left: 140px;
+                top: 1525px;
+
+                font-family: 'Take Cover';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 58px;
+
                 color: #FFFFFF;
-                opacity: 0.35;
+            }
+            &__tag2{
+                position: absolute;
+                width: 737px;
+                height: 67px;
+                left: 142px;
+                top: 1643px;
+
+                font-family: 'Take Cover';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 58px;
+
+                color: #FFFFFF;
+            }
+            &__tag3{
+                position: absolute;
+                width: 882px;
+                height: 67px;
+                left: 140px;
+                top: 1768px;
+
+                font-family: 'Take Cover';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 58px;
+
+                color: #FFFFFF;
             }
         }
     }
