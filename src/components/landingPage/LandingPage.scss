@@ -2,24 +2,27 @@
     display: flex;
     flex-flow: column;
     width: 1440px;
-    height: 1828px;
+    height: 2274px;
+    //height: 2090px;
     background: #2B364B;
 
     &__head{
+        width: 1440px;
         display: flex;
         flex-flow: column;
         justify-content: space-between;
         box-sizing: border-box;
         align-items: center;
         font-family: 'Avenir Next', 'Gill Sans';
-        position: position;
+        //position: relative;
         
         &__players{
             position: absolute;
             width: 152px;
             height: 54px;
-            left: 644px;
-            top: 295px;
+            margin-left: auto;
+            //margin-top: 295px;
+            margin-top: 111px;
 
             font-style: italic;
             font-weight: 800;
@@ -35,8 +38,9 @@
             position: absolute;
             width: 300px;
             height: 96px;
-            left: 570px;
-            top: 361px;
+            margin-left: auto;
+            //margin-top: 361px;
+            margin-top: 177px;
 
             font-style: italic;
             font-weight: 800;
@@ -53,8 +57,9 @@
             position: absolute;
             width: 698px;
             height: 3px;
-            left: 371px;
-            top: 462px;
+            margin-left: auto;
+            //margin-top: 462px;
+            margin-top: 278px;
 
             background: #FFFFFF;
             box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.25);
@@ -64,8 +69,9 @@
             position: absolute;
             width: 449px;
             height: 137px;
-            left: 496px;
-            top: 457px;
+            margin-left: auto;
+            //margin-top: 457px;
+            margin-top: 273px;
 
             font-style: italic;
             font-weight: 800;
@@ -80,8 +86,9 @@
             position: absolute;
             width: 698px;
             height: 3px;
-            left: 371px;
-            top: 578px;
+            margin-left: auto;
+            //margin-top: 578px;
+            margin-top: 394px;
 
             background: #FFFFFF;
             box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.25);
@@ -92,8 +99,9 @@
             position: absolute;
             width: 241px;
             height: 96px;
-            left: 600px;
-            top: 594px;
+            margin-left: auto;
+            //margin-top: 594px;
+            margin-top: 410px;
 
             font-style: italic;
             font-weight: 800;
@@ -111,8 +119,9 @@
             position: absolute;
             width: 152px;
             height: 54px;
-            left: 649px;
-            top: 702px;
+            margin-left: auto;
+            //margin-top: 702px;
+            margin-top: 518px;
 
             font-style: italic;
             font-weight: 800;
@@ -128,7 +137,9 @@
             position: absolute;
             display: flex;
             flex-flow: row;
-            margin-top: 785px;
+            //margin-top: 785px;
+            margin-top: 601px;
+            margin-left: auto;
 
             &__dot1{
                 width: 14px;
@@ -154,8 +165,9 @@
         position: absolute;
         width: 1440px;
         height: 2px;
-        left: 0px;
-        top: 893px;
+        //margin-left: auto;
+        //margin-top: 893px;
+        margin-top: 709px;
 
         background: #FFFFFF;
     }
@@ -164,29 +176,36 @@
         height: 1117px;
         width: 1440px;
 
-        &__arcadia{
+        &__title{
             position: absolute;
-            width: 163px;
-            height: 33px;
-            left: 142px;
-            top: 968px;
+            margin-left: 142px;
+            
+            &__arcadia{
+                position: absolute;
+                width: 163px;
+                height: 33px;
+                //margin-left: 142px;
+                //margin-top: 968px;
+                margin-top: 784px;
 
-            font-family: 'Origin Tech Demo';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 35px;
-            line-height: 33px;
-            /* identical to box height */
+                /*font-family: 'Origin Tech Demo';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 35px;*/
+                line-height: 33px;
+                /* identical to box height */
 
 
-            color: #FFFFFF;
+                color: #FFFFFF;
+            }
         }
         &__desc{
             position: absolute;
             width: 1209px;
             height: 360px;
-            left: 142px;
-            top: 1037px;
+            margin-left: 142px;
+            //margin-top: 1037px;
+            margin-top: 853px;
 
             font-family: 'Gill Sans';
             font-style: normal;
@@ -198,50 +217,55 @@
             color: #FFFFFF;
         }
         &__tags{
+            position: absolute;
+            margin-left: 140px;
             &__tag1{
                 position: absolute;
                 width: 621px;
                 height: 67px;
-                left: 140px;
-                top: 1525px;
+                //margin-left: 140px;
+                //margin-top: 1525px;
+                margin-top: 1341px;
 
-                font-family: 'Take Cover';
+                /*font-family: 'Take Cover';
                 font-style: normal;
                 font-weight: normal;
                 font-size: 50px;
                 line-height: 58px;
 
-                color: #FFFFFF;
+                color: #FFFFFF;*/
             }
             &__tag2{
                 position: absolute;
                 width: 737px;
                 height: 67px;
-                left: 142px;
-                top: 1643px;
+                //margin-left: 142px;
+                //margin-top: 1643px;
+                margin-top: 1459px;
 
-                font-family: 'Take Cover';
+                /*font-family: 'Take Cover';
                 font-style: normal;
                 font-weight: normal;
                 font-size: 50px;
                 line-height: 58px;
 
-                color: #FFFFFF;
+                color: #FFFFFF;*/
             }
             &__tag3{
                 position: absolute;
                 width: 882px;
                 height: 67px;
-                left: 140px;
-                top: 1768px;
+                //margin-right: 140px;
+                //margin-top: 1768px;
+                margin-top: 1584px;
 
-                font-family: 'Take Cover';
+                /*font-family: 'Take Cover';
                 font-style: normal;
                 font-weight: normal;
                 font-size: 50px;
                 line-height: 58px;
 
-                color: #FFFFFF;
+                color: #FFFFFF;*/
             }
         }
     }
