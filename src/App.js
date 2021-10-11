@@ -1,10 +1,11 @@
-import './App.scss'
 import { Route} from 'react-router';
+import './App.scss'
 import { BrowserRouter } from 'react-router-dom';
 import Login from './Components/login';
 import Dashbord from './Components/dashboard';
 import LandingPage from './Components/landingPage';
-import Games from './Components/games/Games'
+import Footer from './components/footer/footer';
+import Games from './components/games/Games';
 import Navbar from './Components/navbar/Navbar'
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
        <Route path = "/login" component={Login}/>
        <Route path = "/dashboard" component={Dashbord}/>
        <Route path = "/games" component={Games}/>
+       <Footer />
      </BrowserRouter>
+     
     </div>
   );
 }
