@@ -1,24 +1,29 @@
-import './App.scss'
-import { Route} from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
-import Login from './Components/login';
-import Dashbord from './Components/dashboard';
-import LandingPage from './Components/landingPage';
-import Games from './Components/games/Games'
-import Navbar from './Components/navbar/Navbar'
-function App() {
-  return (
-    <div className="App">
-    
-     <BrowserRouter>
-       <Route exact path = "/" component={LandingPage}/>
-       <Route  path = "/" component={Navbar}/>
-       <Route path = "/login" component={Login}/>
-       <Route path = "/dashboard" component={Dashbord}/>
-       <Route path = "/games" component={Games}/>
-     </BrowserRouter>
+import React , {Component} from 'react';
+import Games from "./components/games/Games";
+import Navbar from "./components/navbar/Navbar";
+import Login from "./components/login/Login";
+import LandingPage from "./components/landingPage/LandingPage";
+import './App.scss';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+function App(){
+  return(
+    <div className= "App">
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          <Route exact path="/games">
+            <Games />
+          </Route>
+          <Route exact path="/login">
+            <Login />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
-}
+  }
 
 export default App;
